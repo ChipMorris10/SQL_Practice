@@ -30,8 +30,8 @@ INSERT INTO tv_channels (channel_name, channel_number, favorite_shows, comments)
   -- SELECT * FROM tv_channels;
 
   -- return comments to uppercase
-  -- SELECT UPPER(comments) FROM tv_channels;
-  -- SELECT * FROM tv_channels;
+  SELECT UPPER(comments) FROM tv_channels;
+  SELECT * FROM tv_channels;
 
   -- retrun all channels ending in "C"
   -- SELECT * FROM tv_channels WHERE channel_name LIKE '__C%';
@@ -41,8 +41,6 @@ INSERT INTO tv_channels (channel_name, channel_number, favorite_shows, comments)
   -- SELECT * FROM tv_channels WHERE comments = 'Trash tv';
   -- SELECT * FROM tv_channels;
 
-  SELECT tv_channels FROM test_database;
-  SELECT * FROM tv_channels;
 
 
 
